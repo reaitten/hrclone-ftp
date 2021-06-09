@@ -13,6 +13,9 @@
       "description": "Please enter your Cloudname/Remote that you assigned in rclone.conf file.See Readme https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX",
       "value": ""
     }
+    "FOLDER": {
+      "description": "The subfolder in your Storage Provider. (default is root)"
+      "value": "/"
 
 
   },
