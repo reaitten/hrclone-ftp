@@ -16,9 +16,9 @@
     "FOLDER": {
       "description": "The subfolder in your Storage Provider. (default is root)"
       "value": "/"
-     }
-
     }
+
+
   },
   "website": "",
   "repository": "",
