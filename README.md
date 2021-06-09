@@ -5,7 +5,7 @@ Create a public Index with rclone & deploy it on Heroku.
 
 Heroku Oneclick / Rapid deploy method available!
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/HEROKU-RCLONE-SERVE-INDEX"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/Heroku-Rclone-Index"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ###### Support my works by leaving a star on the repo!
 
@@ -17,7 +17,7 @@ Feel free to post any feature requests, helpful criticism in the [Issues](https:
 * Create a [Heroku](https://signup.heroku.com) free account
 * Log in to Heroku in any browser
 * Click on the **Deploy on Heroku** button 
- <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/HEROKU-RCLONE-SERVE-INDEX"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> and deploy app.
+ <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/Heroku-Rclone-Index"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> and deploy app.
 
 ### Step 2: Setting up variables
 #### CONFIG_FILE_IN_URL
@@ -35,7 +35,7 @@ Feel free to post any feature requests, helpful criticism in the [Issues](https:
 #### CLOUDNAME
 The ```CLOUDNAME``` variable is the remote name that you given in rclone.conf file.
 You can check it by opening your ```rclone.conf``` file using any text editors 
-See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/reaitten/HEROKU-RCLONE-SERVE-INDEX/main/.example_images/Screenshot_20210506_165138.jpg) Here ‘ devanazdrive4 ‘ is the CLOUDNAME.
+See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/reaitten/Heroku-Rclone-Index/main/.example_images/Screenshot_20210506_165138.jpg) Here ‘ devanazdrive4 ‘ is the CLOUDNAME.
 ### 
 
 ------------
@@ -110,7 +110,7 @@ With the use of rclone, the Index can support all of these storage providers:
 * No need to expose your rclone.conf file
 
 ## Upcoming Updates
-* Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
+* Multi/infinite mix Index; All cloud/remotes in single index like teamdrive seperated as folder.
 * Encryption Username & Password (under beta stage,may not work in next version)
 * Better Dark UI with CSS & JS - looking for contributers to Make new UI - Best UI designers contact me at issues 
 
