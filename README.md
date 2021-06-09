@@ -1,4 +1,4 @@
-# HEROKU-RCLONE-SERVE-INDEX
+# Heroku Rclone Index
 Create a public Index with rclone & deploy it on Heroku.
 
 ## Follow me for latest updates, v1.20 coming soon..
