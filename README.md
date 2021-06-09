@@ -35,8 +35,9 @@ Feel free to post any feature requests, helpful criticism in the [Issues](https:
 #### CLOUDNAME
 The ```CLOUDNAME``` variable is the remote name that you given in rclone.conf file.
 You can check it by opening your ```rclone.conf``` file using any text editors 
-See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/reaitten/Heroku-Rclone-Index/main/.example_images/Screenshot_20210506_165138.jpg) Here ‘ devanazdrive4 ‘ is the CLOUDNAME.
-### 
+See example image below ```devanazdrive4``` is the ```CLOUDNAME```.
+
+![CLOUDNAME](https://raw.githubusercontent.com/reaitten/Heroku-Rclone-Index/main/.example_images/Screenshot_20210506_165138.jpg) 
 
 ------------
 ### Features
