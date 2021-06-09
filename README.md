@@ -16,7 +16,8 @@ Feel free to post any feature requests, helpful criticism in the [Issues](https:
 * Star my repository
 * Create a [Heroku](https://signup.heroku.com) free account
 * Log in to Heroku in any browser
-* Click on the **Deploy on Heroku** button <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/HEROKU-RCLONE-SERVE-INDEX"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> and deploy app.
+* Click on the **Deploy on Heroku** button 
+ <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/HEROKU-RCLONE-SERVE-INDEX"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> and deploy app.
 
 ### Step 2: Setting up variables
 #### CONFIG_FILE_IN_URL
