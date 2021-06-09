@@ -1,52 +1,54 @@
 # HEROKU-RCLONE-SERVE-INDEX
-Any Remote Cloud Index via HEROKU
-Help me fixing readme.md 
+Create a public Index with rclone & deploy it on Heroku.
 
 ## Follow me for latest updates, v1.20 coming soon..
 
-Heroku oneclick / Rapid deploy method available
+Heroku Oneclick / Rapid deploy method available!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX)
+<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/HEROKU-RCLONE-SERVE-INDEX"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-###### Star my Repository & Support me
+###### Support my works by leaving a star on the repo!
 
- Feel free to post Any [Issues](https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
+Feel free to post any feature requests, helpful criticism in the [Issues](https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX) tab.
 
-## How To Deploy ?
+## How To Deploy
 ### Step 1
 * Star my repository
-* Create a [Heroku](https://dashboard.heroku.com/login) Free account
+* Create a [Heroku](https://signup.heroku.com) free account
 * Log in to Heroku in any browser
-* Click on the Rapid deployment button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX) and deploy app
-### Step 2 (setting Config Vars)
+* Click on the **Deploy on Heroku** button <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/HEROKU-RCLONE-SERVE-INDEX"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> and deploy app.
+
+### Step 2: Setting up variables
 #### CONFIG_FILE_IN_URL
 
-* Generate rclone.conf file from any terminal or cmd or termux .
+* Generate ```rclone.conf``` file from any Terminal or CMD or Termux.
 * You can use Multiple cloud drive accounts in single rclone.conf file
-* We need any text/code hosting website, Use [gist-github](https://gist.github.com) github account needed.
-* Open rclone.config file using any text editors and copy all text inside rclone.conf and paste it in gist
+* We need any text/code hosting website, Use [GitHub Gist](https://gist.github.com) (remember make it private!).
+* Open ```rclone.conf``` file using any text editors and copy all text inside rclone.conf and paste it in gist
 * Choose any file name and save it.
 * Then Click RAW button and copy the url
-* Paste your config Url in the heroku 'CONFIG_FILE_IN_URL' Section
+* Paste your config URL in the heroku 'CONFIG_FILE_IN_URL' Section
 
-** note : Don't share this url to anyone
+**Note**: Don't share this URL to anyone.
+
 #### CLOUDNAME
-CLOUDNAME is the remote name that you given in rclone.conf file.
-You can check it by opening your rclone.conf file using any text editors 
-See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX/main/.example_images/Screenshot_20210506_165138.jpg) Here ‘ devanazdrive4 ‘ is the CLOUDNAME
+The ```CLOUDNAME``` variable is the remote name that you given in rclone.conf file.
+You can check it by opening your ```rclone.conf``` file using any text editors 
+See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/reaitten/HEROKU-RCLONE-SERVE-INDEX/main/.example_images/Screenshot_20210506_165138.jpg) Here ‘ devanazdrive4 ‘ is the CLOUDNAME.
 ### 
 
 ------------
 ### Features
 
-* Drive ,Mega ,Onedrive and other remotes available.
+* Drive, Mega, Onedrive and other remotes available.
 * MEGA support is available at version 2.0
-* No internet speed capping ,Enjoy Maximum download speed
-* 24x7 permanent link
+* No internet speed capping thanks to the use of Heroku
+* 24/7 Permanent link
 * No download limit or quota limit
-* pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
+* Pause download available (Use download Managers like ADM, XDM, Aria2 for more stability)
 
-## Storage providers
+## Storage Providers
+With the use of rclone, the Index can support all of these storage providers:
 
   * 1Fichier [:page_facing_up:](https://rclone.org/fichier/)
   * Alibaba Cloud (Aliyun) Object Storage System (OSS) [:page_facing_up:](https://rclone.org/s3/#alibaba-oss)
@@ -105,9 +107,9 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * More cloud support available.
 * Config Fused to heroku deployment section.
 * No need to expose your rclone.conf file
-# Follow me for latest updates, v1.20 coming soon..
+
 ## Upcoming Updates
 * Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
 * Encryption Username & Password (under beta stage,may not work in next version)
-* Better Dark UI with CSS & JS - looking for contributers to Make new UI -Best UI designers contact me at issues 
+* Better Dark UI with CSS & JS - looking for contributers to Make new UI - Best UI designers contact me at issues 
 
