@@ -5,7 +5,7 @@ Creates a public Index with rclone & deploy it on Heroku.
 
 Heroku Oneclick / Rapid deploy method available!
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/Heroku-Rclone-Index"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/hrclone-ftp"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ###### Support my works by leaving a star on the repo!
 
