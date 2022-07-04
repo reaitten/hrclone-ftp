@@ -6,4 +6,4 @@ rclone listremotes
 wget $CONFIG_IN_URL -O '/.config/rclone/rclone.conf'
 rclone version
 rclone listremotes
-rclone serve http $CLOUDNAME:$FOLDER --addr :$PORT --vfs-read-chunk-size 128M
+rclone serve sftp $CLOUDNAME:$FOLDER --addr :$PORT --vfs-read-chunk-size 128M --user=$RCLONE_USERNAME --pass=$RCLONE_PASSWORD
